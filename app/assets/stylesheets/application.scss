@@ -1,9 +1,22 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
 body {
   font-family: 'Julius Sans One', sans-serif;
+}
+
+.fancy-font {
+  font-family: 'Bad Script', cursive;
+}
+
+a.navbar-brand {
+  font-size: 30px;
+}
+
+nav a {
+  color: black;
 }
 
 .footer {
