@@ -6,9 +6,27 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+           <%= link_to "Wildheart", root_path, class: "navbar-brand" %>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li> <%= link_to "about", '/pages/about' %> </li>
+          <li> <%= link_to "classes", '/pages/classes' %> </li>
+          <li> <%= link_to "pirates&preacher", '/pages/pirates' %> </li>
+          <li> <%= link_to "saintsXsociety", '/pages/st_society' %> </li>
+          <li> <%= link_to "blog", '/pages/blog' %> </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
