@@ -16,6 +16,19 @@ a.navbar-brand {
   font-size: 30px;
 }
 
+blockquote {
+  width: 80%;
+}
+
+.left {
+  border-left: 2px solid #eee;
+}
+
+.text-right {
+  border-right: 2px solid #eee;
+  border-left: none;
+}
+
 nav a {
   color: black;
 }
