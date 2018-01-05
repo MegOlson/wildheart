@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Julius Sans One', sans-serif;
+  margin-bottom: 50px;
 }
 
 .fancy-font {
@@ -17,6 +18,23 @@ a.navbar-brand {
 
 nav a {
   color: black;
+}
+
+.test-header {
+  margin-top: 30px;
+}
+
+.tests {
+  margin-left: 18%;
+}
+
+.blurp {
+  width: 50%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .footer {
@@ -37,6 +55,10 @@ nav a {
   width: 300px;
   margin-left: 15%;
   text-align: center;
+}
+
+.width-200 {
+  width: 400px;
 }
 
 p.width-100 {
@@ -70,4 +92,8 @@ hr {
   margin-right: auto;
   text-align: center;
   width: 50%;
+}
+
+.class {
+  float: right;
 }
