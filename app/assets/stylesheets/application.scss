@@ -87,10 +87,6 @@ nav a {
   margin-top: 20px;
   // background-color: #eee;
 }
-//
-// a.footer {
-//   margin-bottom: 50%;
-// }
 
 .width-500 {
   width: 100%;
@@ -126,7 +122,8 @@ p.width-100 {
 }
 
 .img-rounded {
-  width: 120px;
+  width: 150px;
+  margin-top: 7px;
 }
 
 .team {
@@ -157,6 +154,10 @@ h2 {
 hr {
   width: 75%;
   // border: 1px solid #ffe2f2 ;
+}
+
+.tiny-pic {
+  width: 70px;
 }
 
 .mission {
