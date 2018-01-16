@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Quicksand|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
 body {
   font-family: 'Quicksand', sans-serif;
@@ -23,8 +24,29 @@ p {
   font-family: 'Dancing Script', cursive;
 }
 
+.heading_image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.bottom-left p {
+  font-size: 90px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
 a.navbar-brand {
   font-size: 30px;
+}
+
+.pink {
+  color: #dbc5d6;
 }
 
 .small {
