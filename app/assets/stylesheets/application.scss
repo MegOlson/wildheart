@@ -36,6 +36,42 @@ p {
   left: 16px;
 }
 
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -60%);
+}
+
+.centered2 {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  transform: translate(-10%, -60%);
+}
+
+.text-background {
+  background-color: #dbc5d6;
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.text-background2 {
+  background-color: #c4bcc3;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.centered1 p {
+  font-size: 90px;
+  margin: 10px;
+}
+
+.centered2 p {
+  font-size: 90px;
+  margin: 10px;
+}
+
 .bottom-left p {
   font-size: 90px;
   font-family: 'Fjalla One', sans-serif;
