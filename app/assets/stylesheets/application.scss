@@ -12,6 +12,7 @@ body {
   margin-top: 50px;
 }
 
+
 p {
   font-size: 18px;
 }
@@ -20,8 +21,27 @@ p {
   font-weight: bold;
 }
 
+.blockquote-footer {
+  font-family: 'Fjalla One', sans-serif;
+}
+
 .fancy-font {
   font-family: 'Dancing Script', cursive;
+}
+
+.text-background-black {
+  background-color: black;
+}
+
+.section-header {
+  background-color: #decfd4 ;
+  color: white;
+  margin: auto;
+  width: 30%;
+}
+
+.text-background-black p {
+  margin: 5px;
 }
 
 .heading_image {
@@ -30,10 +50,25 @@ p {
   color: white;
 }
 
+.block-font {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h2.block-font {
+  padding: 10px;
+}
+
 .bottom-left {
   position: absolute;
   bottom: 8px;
   left: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .centered1 {
@@ -51,15 +86,20 @@ p {
 }
 
 .text-background {
-  background-color: #dbc5d6;
+  background-color: #decfd4;
   color: black;
   font-family: 'Fjalla One', sans-serif;
 }
 
 .text-background2 {
-  background-color: #c4bcc3;
+  background-color: #decfd4;
   color: white;
   font-family: 'Fjalla One', sans-serif;
+}
+
+.centered p {
+  font-size: 90px;
+  margin: 10px;
 }
 
 .centered1 p {
@@ -82,7 +122,7 @@ a.navbar-brand {
 }
 
 .pink {
-  color: #dbc5d6;
+  color: #decfd4;
 }
 
 .small {
@@ -209,9 +249,36 @@ h2 {
   text-align: center;
 }
 
-hr {
-  width: 75%;
-  // border: 1px solid #ffe2f2 ;
+.top {
+  background-color: black;
+  color: #decfd4;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 50px;
+  width: 30%;
+  text-align: center;
+}
+
+.top h2 {
+  margin: 5px;
+  font-size: 40px;
+}
+
+.bottom h2 {
+  margin: 5px;
+  font-size: 40px;
+}
+
+.bottom {
+  background-color: #decfd4;
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 50px;
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.header {
+  margin-left: 40%;
 }
 
 .tiny-pic {
@@ -219,13 +286,15 @@ hr {
 }
 
 .mission {
-  margin-top: 50px;
-  margin-bottom: 50px;
   margin-left: auto;
+  margin-bottom: 40px;
   margin-right: auto;
-  text-align: center;
   width: 50%;
 }
+
+// .mission-background {
+//   background-color: #decfd4;
+// }
 
 .class {
   float: right;
