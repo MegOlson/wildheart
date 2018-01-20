@@ -34,11 +34,11 @@ p {
 }
 
 .section-header {
-  background-color: #decfd4 ;
   color: white;
   margin: auto;
   width: 30%;
 }
+
 
 .text-background-black p {
   margin: 5px;
@@ -113,7 +113,7 @@ h2.block-font {
 }
 
 .bottom-left p {
-  font-size: 90px;
+  font-size: 120px;
   font-family: 'Fjalla One', sans-serif;
 }
 
@@ -220,12 +220,18 @@ p.width-100 {
 }
 
 .img-rounded {
-  width: 150px;
+  width: 200px;
   margin-top: 7px;
 }
 
 .team {
   margin-left: 20%;
+}
+
+.block {
+  background-color: #decfd4;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .team-row {
@@ -247,6 +253,10 @@ p.width-100 {
 
 h2 {
   text-align: center;
+}
+
+.block .block-font {
+  font-size: 50px;
 }
 
 .top {
@@ -283,6 +293,28 @@ h2 {
 
 .tiny-pic {
   width: 70px;
+}
+
+.title-bg {
+  background-color: #decfd4;
+  font-size: 50px;
+}
+
+.left-paragraph {
+  margin-left: 70px;
+  padding: 40px;
+}
+
+.width-300 {
+  width: 475px;
+}
+
+h3 {
+  text-align: center;
+}
+
+h3 .fancy-font {
+  font-size: 40px;
 }
 
 .mission {
