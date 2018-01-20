@@ -12,7 +12,6 @@ body {
   margin-top: 50px;
 }
 
-
 p {
   font-size: 18px;
 }
@@ -183,7 +182,7 @@ nav a {
   height: 30px;
   text-align: center;
   margin-top: 20px;
-  // background-color: #eee;
+  background-color: #eee;
 }
 
 .width-500 {
@@ -257,6 +256,21 @@ h2 {
 
 .block .block-font {
   font-size: 50px;
+}
+
+.pirates-header h1{
+  font-size: 75px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.pp-intro {
+  border-top: 4px solid #decfd4;
+}
+
+.pink-color {
+  background-color: #decfd4;
+  width: 40px;
+  height: 30px;
 }
 
 .top {
