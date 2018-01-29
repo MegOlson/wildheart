@@ -91,6 +91,13 @@ h2.block-font {
   left: 16px;
 }
 
+.center-right {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  color: white;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -109,6 +116,13 @@ h2.block-font {
   position: absolute;
   top: 70%;
   left: 55%;
+  transform: translate(-10%, -60%);
+}
+
+.centered2again {
+  position: absolute;
+  top: 60%;
+  left: 63%;
   transform: translate(-10%, -60%);
 }
 
@@ -135,6 +149,11 @@ h2.block-font {
 }
 
 .centered2 p {
+  font-size: 90px;
+  margin: 10px;
+}
+
+.centered2again p {
   font-size: 90px;
   margin: 10px;
 }
