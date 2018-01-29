@@ -33,18 +33,30 @@ footer a{
 }
 
 .navbar a:hover {
-  color: grey;
+  font-weight: bold;
+  color: black;
 }
+
 
 .bold {
   font-weight: bold;
+}
+
+.footer-social a {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.footer-social a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .page-footer {
   margin-top: 50px;
   text-align: center;
   height: 215px;
-  background-color: #d6d1d5;
+  background-color: #c9c9c9;
 }
 
 .blockquote-footer {
@@ -112,11 +124,46 @@ h2.block-font {
   transform: translate(-60%, -60%);
 }
 
+.q-black {
+  font-family: 'Fjalla One', sans-serif;
+  color: black
+}
+
+.a-pink {
+  font-family: 'Fjalla One', sans-serif;
+  color: #decfd4;
+}
+
+#done {
+  width: 60%;
+  margin-left: 10%;
+}
+
+.width-itty {
+  width: 170px;
+}
+
+.sidebar-header {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+}
+
+.sidebar-divider {
+  border: 2px solid black;
+  width: 50%;
+  margin-right: 60%;
+}
+
 .centered2 {
   position: absolute;
   top: 70%;
   left: 55%;
   transform: translate(-10%, -60%);
+}
+
+.big-first-letter {
+  font-size: 30px;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .centered2again {
@@ -329,8 +376,8 @@ nav a {
 }
 
 .width-2002 {
-  width: 450px;
-  height: 413px;
+  width: 457px;
+  height: 350px;
 }
 
 p.width-100 {
