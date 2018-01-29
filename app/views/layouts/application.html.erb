@@ -7,24 +7,57 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   </head>
 
   <body>
     <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-           <a href="/"><%= image_tag "w-logo.png", class: "tiny-pic" %></a>
-        </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li> <%= link_to "about", '/pages/about' %> </li>
-          <li> <%= link_to "events", '/pages/classes' %> </li>
-          <li> <%= link_to "pirates&preacher", '/pages/pirates' %> </li>
-          <li> <%= link_to "saintsXsociety", '/pages/st_society' %> </li>
-          <li> <%= link_to "blog", '/pages/blog' %> </li>
-        </ul>
-      </div>
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <a href="/" ><%= image_tag "w-logo.png", class: "tiny-pic" %></a>
+       </div>
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="/pages/about" style="background-color: transparent !important;">about</a></li>
+         <li><a href="/pages/classes" style="background-color: transparent !important;">events</a></li>
+         <li><a href="/pages/pirates" style="background-color: transparent !important;">pirates&preacher</a></li>
+         <li><a href="/pages/st_society" style="background-color: transparent !important;">saintsXsociety</a></li>
+         <li><a href="/pages/blog" style="background-color: transparent !important;">blog</a></li>
+       </ul>
+     </div>
     </nav>
     <%= yield %>
+    <footer class="page-footer">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footer-address">
+            <div class="container-fluid">
+              <p class="small-header">Address</p>
+              <div class="little-grey-block"></div>
+              <p>33415 Military Rd. South</p>
+              <p>Auburn, WA 98001</p>
+              <br>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-contact">
+            <div class="container-fluid">
+              <p class=" small-header">let's chat</p>
+              <div class="little-grey-block"></div>
+              <br>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-social">
+            <div class="container-fluid">
+              <p class="small-header">Social</p>
+              <div class="little-grey-block"></div>
+              <p class=""><a href="https://www.facebook.com/1WILDHEART/" target="_blank" class="fa fa-facebook fa-lg"></a>                                                 <a href="https://www.instagram.com/wildheart_ig/?hl=en" class="fa fa-instagram fa-lg" target="_blank"></a></p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
